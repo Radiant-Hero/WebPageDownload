@@ -8,6 +8,6 @@ Modify inputs on line 13 of Dockerfile. Download path and urls can be modified. 
 Sample inputs are provided in current version of Dockerfile.
 
 main.py can also be run locally after installing Python 3 and the necessary dependencies (listed in requirements.txt).
-Example of running from Windows cmd: $ python main.py C:\\Temp https://jisho.org/ https://www.tokyodev.com/
+Example of running from Windows cmd: $ python main.py C:\\\\Temp https://jisho.org/ https://www.tokyodev.com/
 Specify python3 if both versions of Python are installed.
-Use double backslashes for Windows file paths to avoid escaping characters i.e. C:\\Temp
+Use double backslashes for Windows file paths to avoid escaping characters i.e. C:\\\\Temp
